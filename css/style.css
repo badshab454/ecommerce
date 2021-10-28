@@ -1,0 +1,500 @@
+/* #####  Common CSS Starts Here  ##### */
+body {
+    margin: 0;
+    font-size: 15px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.pb {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* #####  Common CSS Ends Here  ##### */
+
+/* #####  Header Area Starts Here  ##### */
+
+header.header-area {
+    background-color: #F3F4F9;
+    margin-top: 55px;
+}
+
+header .navbar {
+    font-weight: 700;
+    padding: 10px 35px;
+    background-color: #F3F4F9;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+}
+
+
+/* #####  Header Area Ends Here  ##### */
+
+
+/* #####  Banner Area Starts Here  ##### */
+
+.banner-area {
+    background-color: #F3F4F9;
+    padding: 100px 0 50px;
+}
+
+
+.banner-area .row>* {
+    padding: 0;
+}
+
+.banner-area .bag-area {
+    padding-right: 20px;
+}
+
+.banner-area .unique-area {
+    padding: 95px 0 0 20px;
+}
+
+.banner-area .unique-area p {
+    line-height: 1.5rem;
+    padding: 20px 0 30px;
+}
+
+.banner-area .unique-area a {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* #####  Banner Area Ends Here  ##### */
+
+/* #####  Delevery Area Starts Here ##### */
+
+.brand-area {
+    padding: 80px 0 50px;
+}
+
+.brand-area .goods-area p {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666;
+}
+
+.brand-area .delivery-area {
+    padding-top: 90px;   
+}
+
+.brand-area .delivery-area img {
+    width: 40px;
+}
+
+.brand-area .delivery-area h6 {
+    text-transform: capitalize;
+    padding-bottom: 6px;
+}
+
+.brand-area .delivery-area p {
+    font-size: 9px;
+    color: #888;
+    line-height: 1rem;
+}
+
+/* #####  Delevery Area Ends Here ##### */
+/* #####  Saler Area Starts Here ##### */
+
+.saler-area {
+    padding: 10px 0;
+}
+
+.saler-area .bestsaler-area p {
+    padding: 10px 0 50px;
+}
+
+/* ### Product Area */
+.product-area a {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-area .img-area {
+    position: relative;
+    color: #fff;
+}
+
+.product-area .img-area img {
+    width: 100%;
+    height: auto;
+}
+
+.product-area .img-text, 
+.img-area::after{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.product-area .img-area::after {
+    content: '';
+    height: 60px;
+    bottom: 0;
+    transition: .5s;
+}
+
+.product-area .img-area:hover:after {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.product-area .img-text {
+    padding: 20px;
+    bottom: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.product-area .img-area:hover .img-text {
+    visibility: visible;
+}
+
+.product-area .price-area {
+    padding: 20px 0;
+}
+
+.product-area .price-area span {
+    font-size: 11px;
+}
+
+
+/* #####  Saler Area Ends Here ##### */
+/* #####  Subscribe Area Starts Here ##### */
+
+.subscribe-area {
+    padding: 40px 0 80px;
+}
+
+.subscribe-area .know-area p {
+    padding: 20px 0;
+}
+
+.email-area {
+    margin: 0 5%;
+}
+
+.form-control {
+    margin-right: 15px;
+    background-color: #F3F4F9;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+/* #####  Subscribe Area Ends Here ##### */
+/* #####  Footer Area Starts Here ##### */
+
+.footer-area {
+    color: #fff;
+    background-color: #000;
+    overflow: hidden;
+    padding: 60px 0 20px;
+}
+
+.footer-area img {
+    width: 15px;
+}
+
+.footer-area .top-footer {
+    padding-bottom: 40px;
+}
+
+.footer-area .top-footer h6 {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.footer-area .top-footer p {
+    font-size: 10px;
+}
+
+.footer-area .top-footer li a {
+    font-size: 10px;
+    color: #fff;
+}
+
+.footer-area .top-footer img {
+    margin-top: -8px;
+}
+
+.footer-area .bottom-footer p {
+    font-size: 14px;
+}
+
+/* #####  Footer Area Ends Here ##### */
+
+
+/* #####################################
+
+###  Home Page CSS Ends Here ###
+
+######################################*/
+
+/* #####################################
+
+###  About Us Page CSS Starts Here ###
+
+######################################*/
+
+
+/* #####  About Banner Area Starts Here ##### */
+
+.about-banner-area {
+    padding: 100px 0;
+    background-color: #F3F4F9;
+}
+
+.about-banner-area h2 {
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+.about-banner-area h6 {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+/* #####  About Banner Area Ends Here ##### */
+/* #####  Store Area Starts Here ##### */
+.store-area {
+    padding: 90px 0 30px;
+}
+
+.store-area h5 {
+    text-transform: capitalize;
+    color: #F1A231;
+}
+
+.store-area h2 {
+    text-transform: capitalize;
+    padding: 20px 0 15px;
+}
+
+.store-area p {
+    color: #888;
+    padding-top: 25px;
+}
+
+.store-area img {
+    width: 230px;
+    padding-top: 50px;
+}
+
+.store-area .bottomimg {
+    margin: -45px 0 0 -55px;
+}
+
+/* #####  Store Area Ends Here ##### */
+/* #####  Parallax Area Starts Here ##### */
+
+.parallax-area {
+    padding: 15px 0;
+}
+
+
+/* #####  Parallax Area Ends Here ##### */
+
+
+/* #####################################
+
+###  About Us Page CSS Ends Here ###
+
+######################################*/
+
+
+
+/* #####################################
+
+###  Shop Page CSS Starts Here ###
+
+######################################*/
+
+/* #####  Welcome Area Starts Here ##### */
+.welcome-area {
+    padding: 100px 0;
+}
+
+.welcome-area h6 {
+    font-size: 11px;
+    color: #888888;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+
+/* #####  Welcome Area Ends Here ##### */
+
+
+/* #####################################
+
+###  Shop Page CSS Ends Here ###
+
+######################################*/
+
+
+/* #####################################
+
+###  Page Page CSS Starts Here ###
+
+######################################*/
+
+
+/* #####  Single Area Starts Here ##### */
+
+.single-area {
+    padding: 100px 0;
+}
+
+.single-area h6 {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+/* #####  Single Area Ends Here ##### */
+/* #####  Small Area Starts Here ##### */
+.small-area h2 {
+    text-transform: capitalize;
+}
+
+.small-area .blog-area {
+    padding: 40px 0;
+}
+
+.small-area .blog-area p {
+    color: #888;
+    text-align: justify;
+}
+/* #####  Small Area Ends Here ##### */
+
+
+/* #####################################
+
+###  Page Page CSS Ends Here ###
+
+######################################*/
+
+
+/* #####################################
+
+###  Contact Page CSS Starts Here ###
+
+######################################*/
+
+/* #####  Contact Area Starts Here ##### */
+.contact-area {
+    padding: 100px 0;
+}
+
+.contact-area h6 {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+/* #####  Contact Area Ends Here ##### */
+/* #####  Street Area Starts Here ##### */
+
+.street-area {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.street-area h6 {
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.street-area h4 {
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+
+/* #####  Street Area Ends Here ##### */
+
+
+/* #####################################
+
+###  Contact Page CSS Ends Here ###
+
+######################################*/
+
+
+
+
+
+
+
+
+
+/* #####  Responsive Area Ends Here  ##### */
+
+@media all and (max-width: 991px) {
+    .navbar img {
+        width: 25px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .store-area .bottomimg {
+        margin: 0px;
+    }
+}
+
+
+
+/* #####  Responsive Area Ends Here  ##### */
+
+
+
+
+
+
+
+
+
+
+
